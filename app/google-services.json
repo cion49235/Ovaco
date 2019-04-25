@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "462292482911",
+    "firebase_url": "https://modoostar-6630a.firebaseio.com",
+    "project_id": "modoostar-6630a",
+    "storage_bucket": "modoostar-6630a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462292482911:android:d0c5ef50a353cdf8",
+        "android_client_info": {
+          "package_name": "reina.coffee.ngotronghoangpo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462292482911-r3nvco2c4evbvbhqodcbtlh8lr1likoa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "reina.coffee.ngotronghoangpo",
+            "certificate_hash": "57154229dacb679c0d03496eb6a2726a8714652c"
+          }
+        },
+        {
+          "client_id": "462292482911-p69als67ahup257knbmk59d1idj6ml4b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAZxvv-dxPv4WdayT05GuitmoTjxSJ830"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462292482911-p69als67ahup257knbmk59d1idj6ml4b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
