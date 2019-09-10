@@ -170,7 +170,7 @@ public final class LightningView {
         mWebView.addJavascriptInterface(this, "android_healthfit");
         String userAgent = mWebView.getSettings().getUserAgentString();
         mWebView.getSettings().setUserAgentString(userAgent+" app");
-        String app_url = activity.getString(R.string.url);
+        String app_url = PreferenceUtil.getStringSharedData(activity, PreferenceUtil.PREF_URL, "");
         String incd = PreferenceUtil.getStringSharedData(mActivity, PreferenceUtil.PREF_REWARD_PARAM, "");
         Log.i("dsu", "incd : " + incd);
         if(incd.isEmpty()){
